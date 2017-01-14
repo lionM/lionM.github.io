@@ -1,179 +1,304 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-
+<title>微领软媒</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="微领软媒------可能是技术好的新媒体公司。">
+<meta name="keywords" content="建站,网站建设,临河,微领软媒,巴彦淖尔,内蒙,内蒙古,营销,互联网,电商,电子商务,mircroaim,lh,v," />
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+<script src="js/vue.min.js"></script>
+<script src="http://cdn.bootcss.com/vue/2.0.0/vue.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!--start-smoth-scrolling-->
 </head>
-
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/11/06/hello-world/" class="article-date">
-  <time datetime="2016-11-06T02:56:19.760Z" itemprop="datePublished">2016-11-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/06/hello-world/" data-id="civ626swr00006chp4wriydsd" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2016/11/06/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2016 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.slim.min.js"></script>
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-  </div>
+<div id="wrap">	
+<!--start-banner-->
+	<div class="langBtn" v-on:click="langClick"> {{ langBtn }} </div>
+	<div class="banner" id="home">
+		<div class="container">
+			<div v-if="en" class="banner-top">
+				<a href="index.html"><img src="images/logo.png" alt="" /></a>
+				<h1>WORKING <span> WITH DESIGN LAB</span></h1>
+				<p>We’ve been helping startups launch and grow their businesses. We help you to fill the gap between development, design and product management.</p>
+				<div class="dwn">
+					<a href="#about" class="scroll"><img src="images/dwn-arw.png" alt="" /></a>
+				</div>
+			</div>
+			<div v-if="!en" class="banner-top">
+				<a href="index.html"><img src="images/logo.png" alt="" /></a>
+				<h1>WORKING <span> WITH DESIGN LAB</span></h1>
+				<p>我们已经帮助初创公司推出和发展他们的业务。我们帮你填补差距的发展,设计和产品管理。</p>
+				<div class="dwn">
+					<a href="#about" class="scroll"><img src="images/dwn-arw.png" alt="" /></a>
+				</div>
+			</div>
+		</div>	
+	</div>	
+	<!--end-banner-->
+	<!--start-about-->
+	<div class="about" id="about">
+		<div class="container">
+			<div v-if="en" class="about-main">
+				<h3>ABOUT US</h3>
+				<p> When you work with us, you are part of a team of committed collaborators.<span> All aspects of our software development process are integrated, iterative and agile.</span></p>
+  				<p>Our approach unifies design, development and product management to create exceptional products. We start each project by understanding your business goals, the user’s needs and the product requirements. Then we help translate them into effective and elegant solutions.</p>
+			</div>
+			<div v-if="!en" class="about-main">
+				<h3> 关于我们 </h3>
+				<p> 当你与我们合作,你是一个团队合作者。<span>软件开发过程集成的方方面面,迭代和敏捷。</span></p>
+  				<p>我们的方法结合设计、开发和产品管理创建特殊的产品。我们开始每个项目通过了解您的业务目标,用户的需求和产品需求。然后我们帮助将其转化为有效的和优雅的解决方案。</p>
+			</div>
+		</div>
+	</div>
+	<!--end-about-->
+	<!--start-services-->
+	<div class="services">
+		<div class="container">
+			<div v-if="en" class="services-mian">
+				<h3>SERVICES</h3>
+				<p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. </p>
+				<p>The outcome of this scoping session is a proposal or high-level statement of work. Based on your requirements, we can provide a complete offering or just the pieces you need. </p>
+			</div>
+			<div v-if="!en" class="services-mian">
+				<h3>服务</h3>
+				<p>在我们签订合同或写一行代码我们的团队将在必要的时间来理解你的产品愿景。 </p>
+				<p>这个范围会话是一个提案的结果或高级语句的工作。根据您的需求,我们可以提供一个完整的提供还是你需要的部分。 </p>
+			</div>
+		</div>
+	</div>
+	<!--end-services-->		
+	<!--start-what-->
+	<div class="what">
+		<div class="container">
+			<div v-if="en" class="what-mian">
+				<h3>WHAT WE DO</h3>
+				<div class="what-top">
+					<div class="what-one">
+						<span class="one"> </span>
+						<h4>DESIGN</h4>
+						<P>Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing.</P> 
+						<P>Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed. </P>
+					</div>
+					<div class="what-one">
+						<span class="two"> </span>
+						<h4>DEVELOPMENT</h4>
+						<P>All engineers are fluent in the latest enterprise, mobile and web development technologies. </P>
+						<P>They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing.</P> 
+					</div>
+					<div class="what-one">
+						<span class="tre"> </span>
+						<h4>PRODUCT MANAGEMENT</h4>
+						<P>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. </P> 
+					</div>
+				</div>
+			</div>
+			<div v-if="!en" class="what-mian">
+				<h3>我们要实现的</h3>
+				<div class="what-top">
+					<div class="what-one">
+						<span class="one"> </span>
+						<h4>设计</h4>
+						<P>我们的设计实践提供了全方位的服务包括品牌战略、交互和视觉设计和用户体验测试。</P> 
+						<P>在你的项目中,我们的设计师创建和实现视觉设计和工作流,征求用户的反馈,与你合作,确保建造所需要的是什么。 </P>
+					</div>
+					<div class="what-one">
+						<span class="two"> </span>
+						<h4>开发</h4>
+						<P>所有的工程师都流利的最新的企业,移动和web开发技术。 </P>
+						<P>他们与您的团队合作编写、测试和改进代码每天使用测试驱动开发等的可靠实践和结对编程。</P> 
+					</div>
+					<div class="what-one">
+						<span class="tre"> </span>
+						<h4>产品管理</h4>
+						<P>规划和发展是迭代。因为我们不断的编码和测试,我们制造的产品总是准备上线。这种迭代过程可以随着业务需求的发展变化。 </P> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-what-->
+	<!--start-work-->
+	<!-- <div class="work">
+		<div  id="top" class="callbacks_container">
+			      	<ul class="rslides" id="slider4">
+			        <li>
+						<div class="work-main">
+							<div class="col-md-4 work-one">
+								<img src="images/work-1.jpg" alt="" />
+								<h3>TOPWORKZ</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-2.jpg" alt="" />
+								<h3>JOINT</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-3.jpg" alt="" />
+								<h3>MARKET</h3>
+							</div>
+							<div class="clearfix"></div>	
+						</div>
+						<div class="work-main">
+							<div class="col-md-4 work-one">
+								<img src="images/work-4.jpg" alt="" />
+								<h3>WORKTOP</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-5.jpg" alt="" />
+								<h3>LABLE</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-6.jpg" alt="" />
+								<h3>KYIV</h3>
+							</div>
+							<div class="clearfix"></div>	
+						</div>
+					</li>
+					 <li>
+						<div class="work-main">
+							<div class="col-md-4 work-one">
+								<img src="images/work-4.jpg" alt="" />
+								<h3>WORKTOP</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-6.jpg" alt="" />
+								<h3>KYIV</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-1.jpg" alt="" />
+								<h3>TOPWORKZ</h3>
+							</div>
+							<div class="clearfix"></div>	
+						</div>
+						<div class="work-main">
+							<div class="col-md-4 work-one">
+								<img src="images/work-2.jpg" alt="" />
+								<h3>JOINT</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-3.jpg" alt="" />
+								<h3>MARKET</h3>
+							</div>
+							<div class="col-md-4 work-one">
+								<img src="images/work-5.jpg" alt="" />
+								<h3>LABLE</h3>
+							</div>
+							<div class="clearfix"></div>	
+						</div>
+					</li>
+			     </ul>
+			  </div>
+		<div class="clearfix"> </div>		
+	</div> -->
+	<div class="working">
+		<div class="container">
+			<div class="contact-main " style="background: #000">
+				<div class="icons">
+            		<div class="box">
+            			<div class="icon icon1"></div>
+		            	<div class="icon icon2"></div>
+		            	<div class="icon icon3"></div>
+		            	<div class="icon icon4"></div>
+		            	<div class="icon icon5"></div>
+            		</div>
+            	</div>
+			</div>
+		</div>
+	</div>
+	<!--end-work-->	
+	<!--start-contact-->
+	<div class="contact">
+		<div class="container">
+			<div v-if="en" class="contact-main">
+				<h3>CONTACT US</h3>
+				<p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. </p>
+				<!-- <div class="contact-btn">
+					<a href="contact.html" class="hvr-sweep-to-right">CONTACT US</a>
+				</div> -->
+				<div style="text-align:left">
+					<p>WeChat：
+						<img class="qrcode" src="images/qrcode_lion.jpg" alt="qrcode">
+						<img class="qrcode" src="images/qrcode_WLRM_0478.jpg" alt="qrcode">
+					</p>
+					<p>Tel：<a href="tel:18500371620">18500371620</a></p>
+					<p>Email：<a href="">zhaoi602@163.com</a></p>
+				</div>
+			</div>
+			<div v-if="!en" class="contact-main">
+				<h3>联系我们</h3>
+				<p>规划和发展是迭代。因为我们不断的编码和测试,我们制造的产品总是准备上线。这种迭代过程可以随着业务需求的发展变化。 </p>
+				<div style="text-align:left">
+					<p>微&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信：
+						<img class="qrcode" src="images/qrcode_lion.jpg" alt="qrcode">
+						<img class="qrcode" src="images/qrcode_WLRM_0478.jpg" alt="qrcode">
+					</p>
+					<p>联系电话：<a href="tel:18500371620">18500371620</a></p>
+					<p>联系邮箱：<a href="">zhaoi602@163.com</a></p>
+				</div>
+			</div>
+			<div class="contact-bottom">
+				<a href="index.html"><img src="images/logo-1.png" alt="" /></a>
+				<p><a href="http://microaim.cn/"> </a></p>
+			</div>
+		</div>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</div>
+	<!--end-contact-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--Slider-Starts-Here-->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+	    // You can also use "$(window).load(function() {"
+	    $(function () {
+	      // Slideshow 4
+	      $("#slider4").responsiveSlides({
+	        auto: true,
+	        pager: true,
+	        nav: false,
+	        speed: 500,
+	        namespace: "callbacks",
+	        before: function () {
+	          $('.events').append("<li>before event fired.</li>");
+	        },
+	        after: function () {
+	          $('.events').append("<li>after event fired.</li>");
+	        }
+	      });
+	
+	    });
+	</script>
+	<!--End-slider-script-->
+	<script src="js/main.js"></script>
 </body>
 </html>
