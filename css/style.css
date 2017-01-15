@@ -1751,6 +1751,84 @@ a.hvr-sweep-to-right:hover:before,a.hvr-sweep-to-right:focus:before,a.hvr-sweep-
   background: url(../images/icon5.png); 
 }
 }
+@media (max-width:414px){
+.icons{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  top:-42px;
+  
+}
+.icons .box{
+  width: 940px;
+  margin: 0 auto;
+}
+.icons .icon{
+  width: 136px;
+  height: 136px;
+  margin: 0 -40px;
+  float: left;
+  cursor: pointer;
+  -webkit-transform:scale(0.3);
+  -moz-transform:scale(0.3);
+  -ms-transform:scale(0.3);
+  -o-transform:scale(0.3);
+}
+.icons .icon.icon1{
+  background: url(../images/icon1.png); 
+}
+.icons .icon.icon2{
+  background: url(../images/icon2.png); 
+}
+.icons .icon.icon3{
+  background: url(../images/icon3.png); 
+}
+.icons .icon.icon4{
+  background: url(../images/icon4.png); 
+}
+.icons .icon.icon5{
+  background: url(../images/icon5.png); 
+}
+}
+@media (max-width:375px){
+.icons{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  top:-42px;
+  
+}
+.icons .box{
+  width: 940px;
+  margin: 0 auto;
+}
+.icons .icon{
+  width: 136px;
+  height: 136px;
+  margin: 0 -39px;
+  float: left;
+  cursor: pointer;
+  -webkit-transform:scale(0.3);
+  -moz-transform:scale(0.3);
+  -ms-transform:scale(0.3);
+  -o-transform:scale(0.3);
+}
+.icons .icon.icon1{
+  background: url(../images/icon1.png); 
+}
+.icons .icon.icon2{
+  background: url(../images/icon2.png); 
+}
+.icons .icon.icon3{
+  background: url(../images/icon3.png); 
+}
+.icons .icon.icon4{
+  background: url(../images/icon4.png); 
+}
+.icons .icon.icon5{
+  background: url(../images/icon5.png); 
+}
+}
 @media (max-width:360px){
 .icons{
   position: absolute;
