@@ -1766,7 +1766,7 @@ a.hvr-sweep-to-right:hover:before,a.hvr-sweep-to-right:focus:before,a.hvr-sweep-
 .icons .icon{
   width: 136px;
   height: 136px;
-  margin: 0 -40px;
+  margin: 0 -35px;
   float: left;
   cursor: pointer;
   -webkit-transform:scale(0.3);
